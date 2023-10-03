@@ -12,7 +12,7 @@ function allItemsPage(props) {
                 <title>All Projects</title>
                 <meta
                     name='description'
-                    content='A list of all programming-related tutorials and projects!'
+                    content='A list of all projects done by Outline Designs!'
                 />
             </Head>
             <HeaderTwo />

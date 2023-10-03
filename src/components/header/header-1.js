@@ -79,7 +79,7 @@ function HeaderOne() {
                                                 </a>
                                             </Link>
                                         </li>
-                                        <li
+                                        {/* <li
                                             className={
                                                 router.pathname == '/posts'
                                                     ? 'active'
@@ -91,7 +91,7 @@ function HeaderOne() {
                                                     <span>Posts</span>
                                                 </a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li
                                             className={
                                                 router.pathname == '/contact'
@@ -108,7 +108,7 @@ function HeaderOne() {
                                     </ul>
                                 </nav>
                             </div>
-                            <div className='lg:col-span-3 col-span-6'>
+                            {/* <div className='lg:col-span-3 col-span-6'>
                                 <div className={`outer-box ${headerCss}`}>
                                     <ul className='language-list text-white'>
                                         <li>
@@ -131,7 +131,7 @@ function HeaderOne() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

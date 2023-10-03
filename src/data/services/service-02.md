@@ -3,4 +3,4 @@ title: "Commercial"
 icon: "AiOutlineShoppingCart"
 ---
 
-We provide all materials, labor, equip ensure a safe and secure
+We specialize in constructing Commercial tailored to your suit your needs.

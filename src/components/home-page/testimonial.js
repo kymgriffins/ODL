@@ -26,7 +26,7 @@ function Testimonial({ testimonialItems }) {
                 <div className='grid-cols-1'>
                     <div className='flex items-center justify-between mb-[65px]'>
                         <h2 className='testimonial-title'>
-                            +1,250 Happy Clients
+                            +23 Happy Clients
                         </h2>
                         <div className='swiper-button-wrap flex cursor-pointer text-[#999999] text-[30px]'>
                             <div
@@ -91,6 +91,7 @@ function Testimonial({ testimonialItems }) {
                                 </SwiperSlide>
                             );
                         })}
+                        <br></br>
                     </Swiper>
                 </div>
             </div>

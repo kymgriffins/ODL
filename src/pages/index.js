@@ -64,10 +64,10 @@ function HomePage(props) {
       <Services services={props.services} />
       <LatestProject projects={props.projects} />
       <About />
-      <PricingTab pricingItems={props.pricingItems} />
+      {/* <PricingTab pricingItems={props.pricingItems} /> */}
       <Testimonial testimonialItems={props.testimonialItems} />
-      <Brand brandItems={props.brandItems} />
-      <FeaturedPost posts={props.posts} />
+      {/* <Brand brandItems={props.brandItems} /> */}
+      {/* <FeaturedPost posts={props.posts} /> */}
     </Fragment>
   );
 }

@@ -11,24 +11,23 @@ function ContactForm() {
                             Contact
                         </h2>
                         <h3 className='text-3xl leading-9 font-semibold'>
-                            New York,
+                            Nairobi
                             <span className='text-[#6F6969]'>
-                                United States
+                                Kenya
                             </span>
                         </h3>
                         <ul className='text-[14px] leading-[27px] text-secondary pt-6'>
                             <li className='pb-[15px] max-w-[270px]'>
-                                No. 1002, Dahill Rd Str, Borough Park, NY 9982,
-                                USA
+                                P.O. Box 170140-00100
                             </li>
                             <li className='pb-[15px]'>
                                 <Link href='tel:+070-3689-56-56-56'>
-                                    <a>(+070) 3689 56 56 56</a>
+                                    <a>(+254) 718 275 068</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href='mailto:contact@nordicstudio.co'>
-                                    <a>contact@nordicstudio.co</a>
+                                <Link href='mailto:outlinedesignsltd@gmail.com'>
+                                    <a>outlinedesignsltd@gmail.com</a>
                                 </Link>
                             </li>
                         </ul>

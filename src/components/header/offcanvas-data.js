@@ -14,11 +14,11 @@ export const OffcanvasData = [
         path: '/projects',
         cName: 'offcanvas-text',
     },
-    {
-        title: 'Posts',
-        path: '/posts',
-        cName: 'offcanvas-text',
-    },
+    // {
+    //     title: 'Posts',
+    //     path: '/posts',
+    //     cName: 'offcanvas-text',
+    // },
     {
         title: 'Contact',
         path: '/contact',

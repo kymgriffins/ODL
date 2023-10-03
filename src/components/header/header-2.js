@@ -79,7 +79,7 @@ function HeaderTwo() {
                                             </a>
                                         </Link>
                                     </li>
-                                    <li
+                                    {/* <li
                                         className={
                                             router.pathname == '/posts'
                                                 ? 'active'
@@ -91,7 +91,7 @@ function HeaderTwo() {
                                                 <span>Posts</span>
                                             </a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li
                                         className={
                                             router.pathname == '/contact'
@@ -108,25 +108,7 @@ function HeaderTwo() {
                                 </ul>
                             </nav>
                         </div>
-                        <div className='lg:col-span-3 col-span-6'>
-                            <div className={`outer-box ${headerCss}`}>
-                                <ul className='language-list'>
-                                    <li>
-                                        <Link href='/'>END</Link>
-                                    </li>
-                                    <li>
-                                        <Link href='/'>FRA</Link>
-                                    </li>
-                                </ul>
-                                <div className='offcanvas-area'>
-                                    <div className='offcanvas'>
-                                        <button className='menu-bars flex text-[24px]'>
-                                            <FaBars onClick={showOffcanvas} />
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </header>

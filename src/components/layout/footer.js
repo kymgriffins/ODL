@@ -23,20 +23,19 @@ function Footer() {
                                 <h2 className='title'>Contact</h2>
                                 <ul className='contact-info mt-[25px]'>
                                     <li>
-                                        17 Princess Road, London, Greater
-                                        London, NW18JR, Uk
+                                       Nairobi, Kenya
                                     </li>
                                     <li>
-                                        <Link href='mailto:hello@Rusticstudio.co'>
-                                            <a className='hover:text-black transition-all'>
-                                                hello@Rusticstudio.co
+                                        <Link href='mailto:outlinedesignsltd@gmail.com'>
+                                            <a className='hover:text-black '>
+                                            outlinedesignsltd@gmail.com
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href='tel:+0084-912-3548-073'>
                                             <a className='hover:text-black transition-all'>
-                                                (+0084) 912-3548-073
+                                            (+254) 718 275 068
                                             </a>
                                         </Link>
                                     </li>
@@ -119,65 +118,54 @@ function Footer() {
                         <div className='md:grid md:grid-cols-12 flex flex-col'>
                             <div className='md:col-span-4 max-lm:order-last max-lm:pt-[10px]'>
                                 <div className='copyright flex-wrap md:justify-start justify-center md:mb-0 mb-[10px]'>
-                                    © 2022 <span className='mx-1'>RUSTIC</span>
-                                    Made with © by
-                                    <div className='text-[#f53400] mx-1'>
+                                    © 2022 <span className='mx-1'>Outline Designs</span>
+                                    Made by
+                                    {/* <div className='text-[#f53400] mx-1'>
                                         <AiIcons.AiFillHeart />
-                                    </div>
-                                    <Link href='https://themeforest.net/user/codecarnival/portfolio'>
+                                    </div> */}
+                                    <Link href='https://devgriffo.me'>
                                         <a target='_blank'>
-                                            <span> CodeCarnival</span>
+                                            <span> GriffiT</span>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
-                            <div className='md:col-span-6'>
-                                <ul className='footer-social-link md:mb-0 mb-[10px]'>
-                                    <li>
-                                        <Link href='https://twitter.com/'>
-                                            <a>Twitter</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href='https://facebook.com/'>
-                                            <a>Facebook</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href='https://instagram.com/'>
-                                            <a>Instagram</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href='https://tumblr.com/'>
-                                            <a>Tumblr</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href='https://pinterest.com/'>
-                                            <a>Pinterest</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className='md:col-span-2'>
-                                <ul className='footer-language flex md:justify-end justify-center'>
-                                    <li className='mr-8'>
-                                        <Link href='/about'>
-                                            <a className='text-[#30373E] text-[14px] leading-6 uppercase transition-all hover:text-[#263a4f]'>
-                                                Eng
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href='/about'>
-                                            <a className='text-[#30373E] text-[14px] leading-6 uppercase transition-all hover:text-[#263a4f]'>
-                                                Fre
-                                            </a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
+                            
+<div className='md:col-span-6'>
+    <ul className='footer-social-link md:mb-0 mb-[10px]'>
+        <li>
+            <Link href='https://twitter.com/' passHref>
+                <a target="_blank">Twitter</a>
+            </Link>
+        </li>
+        <li>
+            <Link href='https://facebook.com/' passHref>
+                <a target="_blank">Facebook</a>
+            </Link>
+        </li>
+        <li>
+            <Link href='https://instagram.com/' passHref>
+                <a target="_blank">Instagram</a>
+            </Link>
+        </li>
+        <li>
+            <Link href='https://www.linkedin.com/company/outlinedesigns/' passHref>
+                <a target="_blank">LinkedIn</a>
+            </Link>
+        </li>
+        <li>
+            <Link href='https://pinterest.com/' passHref>
+                <a target="_blank">Pinterest</a>
+            </Link>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+                           
                         </div>
                     </div>
                 </div>

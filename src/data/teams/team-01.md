@@ -1,10 +1,10 @@
 ---
 title: Team Member
-image: /images/team/1.jpg
+image: /images/team/Weldon
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 instagramIcon: 'FaInstagram'
 linkedinIcon: 'FaLinkedin'
-memberName: Edward Eric Jr
-designation: CEO Founder
+memberName: Weldon Kimutai 
+designation: CEO, Architect & Project Manager
 ---

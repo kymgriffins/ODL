@@ -7,7 +7,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: '#ffe1a0',
+                primary: '#76B2D2',
                 secondary: '#333333',
                 azure: '#eef2f2',
                 sky: '#00ccff',
@@ -18,8 +18,8 @@ module.exports = {
             },
             backgroundImage: {
                 'pattern-1': "url('/images/background/pattern-1.png')",
-                'page-banner-1': "url('/images/page-banner/1.jpg')",
-                'page-banner-2': "url('/images/page-banner/2.jpg')",
+                'page-banner-1': "url('/images/hero/3.jpg')",
+                'page-banner-2': "url('/images/hero/3.jpg')",
                 'new-post': "url('/images/background/new-post.jpg')",
             },
             animation: {
